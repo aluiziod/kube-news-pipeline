@@ -19,7 +19,7 @@ jobs:
     #     password: ${{secrets.DOCKERHUB_PWD}}
 
     - name: Construção da imagem Docker worker
-      uses: ocker/build-push-action@v6.18.0
+      uses: Docker/build-push-action@v6.18.0
       with: 
         context: ./src
         file: ./src/Dockerfile
