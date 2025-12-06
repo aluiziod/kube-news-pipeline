@@ -25,5 +25,5 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          aluiziod/kube-news:${{github.run_number}}
-          aluiziod/kube-news:latest    
+          aluiziodiniz/kube-news:${{github.run_number}}
+          aluiziodiniz/kube-news:latest    
