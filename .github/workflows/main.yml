@@ -10,7 +10,7 @@ jobs:
     env:
       SCAN_PATH: "." # Set the relative path in the repo to build the image from
      # TAG: "docker-tag" # Set the tag to use for the image
-      POLICY: "aluizio_policy_83341" # Set the desired Wiz CLI policy to use
+      POLICY: "aluizio_test_cicd" # Set the desired Wiz CLI policy to use
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
